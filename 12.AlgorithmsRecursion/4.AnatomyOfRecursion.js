@@ -2,11 +2,10 @@ let counter = 0
 
 function inception(num) {
     if (counter === 100) {
-        console.log("Done")
-        return
+        return "Done"
     }
     counter++
-    inception()
+    return inception()
 }
 
-inception()
+console.log(inception())
