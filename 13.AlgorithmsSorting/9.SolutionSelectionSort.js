@@ -15,7 +15,6 @@ const selectionSort = function (arr) {
     }
 
     return arr
-
 }
 
 console.log(selectionSort(number2))
